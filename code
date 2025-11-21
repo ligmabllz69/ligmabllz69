@@ -1,0 +1,13 @@
+class person:
+    def __init__(self,nm,ag,origin):
+        self.name = nm
+        self.age = ag
+        self.eth = origin
+    def display(self):
+        print(f"name: {self.name}, age: {self.age}, origin: {self.eth}")
+class student(person):
+    pass
+p = person("sami nori", 67, "morroco")
+p2 = person("p diddy", 69, "africa")
+p.display()
+p2.display()
